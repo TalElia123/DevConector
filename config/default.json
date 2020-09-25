@@ -1,0 +1,3 @@
+{
+  "mongoURI": "mongodb+srv://Tal123:Tal12345@devconnector.dpruh.mongodb.net/<dbname>?retryWrites=true&w=majority"
+}
