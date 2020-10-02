@@ -276,7 +276,7 @@ router.put(
 
       res.json(profile);
     } catch (err) {
-      console.log(err);
+      console.error(err);
       res.status(500).json({ errors: [{ msg: 'Server Error' }] });
     }
   }
