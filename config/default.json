@@ -1,4 +1,6 @@
 {
   "mongoURI": "mongodb+srv://Tal123:Tal12345@devconnector.dpruh.mongodb.net/<dbname>?retryWrites=true&w=majority",
-  "jwtSecret": "mysecrettoken"
+  "jwtSecret": "mysecrettoken",
+  "githubClientID": "95b2df4b49ae437b2960",
+  "githubSecret": "480f9b1429dbd96e4bac3dc610c566e0e87daa0f"
 }
