@@ -2,7 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { Route, Redirect } from 'react-router-dom';
-import { login } from '../../actions/auth';
 
 const PrivateRoute = ({
   component: Component,
@@ -29,4 +28,4 @@ const mapStateToProps = (state) => ({
   auth: state.auth,
 });
 
-export default connect(mapStateToProps, { login })(PrivateRoute);
+export default connect(mapStateToProps)(PrivateRoute);

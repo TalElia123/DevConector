@@ -20,10 +20,7 @@ const Experience = ({ experience, deleteExperience }) => {
       <td>
         <button
           className='btn btn-danger'
-          onClick={(e) => {
-            e.preventDefault();
-            deleteExperience(exp._id);
-          }}
+          onClick={() => deleteExperience(exp._id)}
         >
           Delete
         </button>
